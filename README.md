@@ -473,7 +473,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
       ```javascript
       var object = {
-           name: "Sudheer"
+           name: "Sanjeev"
            age: 34
       };
 
@@ -491,7 +491,7 @@ You can download the PDF and Epub version of this repository from the latest run
         this.name = name;
         this.age = 21;
       }
-      var object = new Person("Sudheer");
+      var object = new Person("Sanjeev");
       ```
 
    5. **Function constructor with prototype:**
@@ -500,7 +500,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
       ```javascript
       function Person() {}
-      Person.prototype.name = "Sudheer";
+      Person.prototype.name = "Sanjeev";
       var object = new Person();
       ```
 
@@ -536,7 +536,7 @@ You can download the PDF and Epub version of this repository from the latest run
         }
       }
 
-      var object = new Person("Sudheer");
+      var object = new Person("Sanjeev");
       ```
 
    7. **Singleton pattern:**
@@ -545,7 +545,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
       ```javascript
       var object = new (function () {
-        this.name = "Sudheer";
+        this.name = "Sanjeev";
       })();
       ```
 
@@ -4446,7 +4446,7 @@ You can download the PDF and Epub version of this repository from the latest run
        return "Hello, " + name;
      }
 
-     let user = "Sudheer";
+     let user = "Sanjeev";
 
      console.log(greeting(user));
      ```
@@ -7530,8 +7530,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
      ```js
      console.group("User Details");
-     console.log("name: Sudheer Jonna");
-     console.log("job: Software Developer");
+     console.log("name: Sanjeev Puspam");
+     console.log("job: Sr. Software Developer");
 
      // Nested Group
      console.group("Address");
